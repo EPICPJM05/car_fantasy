@@ -91,7 +91,11 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
 }
-
+.menuBar{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("campbell-3ZUsNJhi_Ik-unsplash.jpg");
+  height: 111px;
+}
 nav {
   position: fixed;
   isolation: isolate;
@@ -103,7 +107,6 @@ nav {
 }
 
 .nav__bar {
-  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -257,11 +260,11 @@ nav {
 
 @media (width > 768px) {
   nav {
-    padding: 2rem 1rem;
     position: static;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 111px;
   }
 
   .nav__bar {
@@ -307,4 +310,12 @@ nav {
   .service__grid {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+#model{
+  width: 90vw !important;
+  height: 100vh !important;
+  position: relative;
+  top: 0;
+  left: 0;
 }
